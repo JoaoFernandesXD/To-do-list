@@ -4,4 +4,4 @@ Este repositório contém uma página de "to do list" desenvolvida com HTML, CSS
 
 # Front end em desenvolvimento
 
-<img src="https://user-images.githubusercontent.com/24917622/221362457-62bda23e-6c57-434d-9598-03ad06ace2ff.png"
+<img src="https://user-images.githubusercontent.com/24917622/221362457-62bda23e-6c57-434d-9598-03ad06ace2ff.png">
