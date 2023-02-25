@@ -132,6 +132,12 @@ body {
     background-color: var(--blue);
     border: 1px solid var(--blue);
 }
+
+.all .list__task input[type=checkbox]:checked + p {
+    text-decoration: line-through;
+    color: gray;
+}
+
 .all .list__task input[type=checkbox]:checked:after{
     content: '';
     display: block;
