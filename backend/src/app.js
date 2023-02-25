@@ -1,5 +1,5 @@
 const exepress = require('express');
-const cors = rquire('cors');
+const cors = require('cors');
 const router = require('./router');
 
 const app = exepress();
