@@ -153,3 +153,40 @@ Front-end que está sendo desenvolvido para se integrar com a API. O objetivo é
 
 
 
+
+
+## Contribuição
+
+
+Se você está interessado em contribuir para este projeto, ficarei muito feliz em receber suas contribuições. Este projeto é uma iniciativa aberta e colaborativa, e todas as contribuições são bem-vindas, desde pequenas correções de bugs até novos recursos e funcionalidades.
+
+Para contribuir, basta seguir os seguintes passos:
+
+
+
+
+
+
+#### Faça um Fork desse repositório para sua própria conta.
+
+#### Crie uma nova branch para suas modificações:
+```bash
+ git checkout -b minha-modificacao
+```
+
+#### Faça as alterações necessárias e commit:
+```bash
+ git commit -m "Minha modificação"
+```
+
+#### Envie as modificações para seu repositório no GitHub:
+```bash
+ git push origin minha-modificacao
+```
+
+Abra um Pull Request neste repositório, descrevendo as alterações que foram feitas e o motivo pelo qual elas são necessárias.
+
+Assim que receber sua contribuição, avaliarei as mudanças e, se estiverem de acordo com as diretrizes do projeto, farei o merge da sua modificação com a branch principal.
+
+Agradeço antecipadamente pela sua contribuição e espero poder contar com sua colaboração para tornar este projeto ainda melhor!
+
