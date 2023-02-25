@@ -9,7 +9,7 @@ Este repositório contém uma página de "to do list" desenvolvida com HTML, CSS
 | Tarefa           | Tempo exigido | | Finished | 
 |----------------|---------------|----------------|-----------|
 | Back-end  | > 3 hours  |  | Ok | 
-| Fron-end   | ?  |  | in progress |
+| Front-end   | ?  |  | in progress |
 
 
 
