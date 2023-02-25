@@ -135,6 +135,17 @@ PORT é aonde a nossa aplicação ira rodar caso você não coloque nenhuma por 
 
 Front-end que está sendo desenvolvido para se integrar com a API. O objetivo é criar uma interface de usuário que permita aos usuários visualizar todas as tarefas e seus status de conclusão. Além disso, a interface deve permitir que os usuários excluam tarefas. O front-end será desenvolvido usando HTML, CSS e JavaScript. Contribuições são sempre bem-vindas!
 
+| Tarefas front-end         | Tempo exigido | | Finished | 
+|----------------|---------------|----------------|-----------|
+| Container | 0 min  |  | done | 
+| Lista tarefas | 0 min  |  | done | 
+| Checkbox funcionando | 0 min  |  | done | 
+| efeito line-through ao clicar na tarefa | ?  |  | in progress | 
+| Incluir button Editar | ?  |  | Em espera | 
+| Incluir button Exlcuir | ? |  | Em espera | 
+| Incluir button status (Concluido, em progresso, em espera) | ?  |  | Em espera | 
+| Realizar integração com API  | ?  |  | Em espera | 
+
 
 ![Front-end](https://user-images.githubusercontent.com/24917622/221362457-62bda23e-6c57-434d-9598-03ad06ace2ff.png)
 
