@@ -8,10 +8,24 @@ const validador =  (req, response, next) => {
         return response.status(400).json({message: 'Title cannot be empty'});
     }
 
-    // return ok
+    // titulo ok
+    next();
+};
+const validadorStatus =  (req, response, next) => {
+    const { body } = req;
+
+    if (body.status == undefined){
+        return response.status(400).json({message: 'The filed "status" is required'});
+    }
+    if (body.status == ''){
+        return response.status(400).json({message: 'Status cannot be empty'});
+    }
+
+    // status ok
     next();
 };
 
 module.exports = {
     validador,
+    validadorStatus,
 };

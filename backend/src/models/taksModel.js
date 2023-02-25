@@ -39,11 +39,11 @@ const deleteTask = async (id) => {
      update task
 */
 const updateTask = async (id, task) => {
-    const {title, stauts} = task;
+    const {title, status} = task;
 
-    const [updateTask] = await connection.execute('UPDATE tarefas set titulo = ?, status = ? WHERE id = ?', [title, stauts, id]);
+    const [updateTask] = await connection.execute('UPDATE tarefas set titulo = ?, status = ? WHERE id = ?', [title, status, id]);
     
-    return removeTask;
+    return updateTask;
 };
 module.exports = {
     getAll,

@@ -28,10 +28,21 @@ const deleteTask = async (req, response) => {
 
 };
 
+/* 
+    update task
+*/
+const updateTask = async (req, response) => {
+    const { id } = req.params;
+    await taksModel.updateTask(id, req.body);
+    return response.status(204).json({ message:'task upadte sucess!'})
+
+};
+
 
 
 module.exports = {
     getAll,
     addTask,
     deleteTask,
+    updateTask,
 };

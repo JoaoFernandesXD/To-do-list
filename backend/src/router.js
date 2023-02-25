@@ -23,4 +23,11 @@ router.post('/tasks/insert', taskMiddleware.validador, taksControllers.addTask);
 router.delete('/tasks/delete/:id', taksControllers.deleteTask);
 
 
+/* 
+    upate task
+*/
+router.put('/tasks/update/:id', taskMiddleware.validador, taskMiddleware.validadorStatus, taksControllers.updateTask);
+
+
+
 module.exports = router;
