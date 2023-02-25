@@ -105,6 +105,11 @@ body {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    
+}
+.all .list__task .button {
+    background-color: red;
+    margin:0 0 0 auto;
 }
 .all .list__task p {
     font-size: 16px;
