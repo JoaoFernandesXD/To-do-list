@@ -108,18 +108,47 @@ body {
     
 }
 .all .list__task .button {
-    background-color: red;
     margin:0 0 0 auto;
 }
-.all .list__task p {
-    font-size: 16px;
-    font-weight: 400;
-    color: var(--allwhite);
-    margin-left: 12px;
+
+.all .list__task .button img {
+    width: 20px;
+    margin: 0 auto;
 }
-.input {
-    
+
+.all .list__task span {
+    font-size: 14px;
+    color: var(--forblack);
 }
+
+.action {
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.action:nth-child(1) {
+    background: linear-gradient(to right, yellow 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+}
+
+.action:nth-child(2) {
+    background: linear-gradient(to right, red 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+}
+
+.action:hover {
+    background-position: left bottom;
+  }
+
+button > img,
+button > span {
+  vertical-align: middle;
+}
+
 .all .list__task input[type=checkbox]{
     appearance: none;
     width: 24px;
@@ -160,3 +189,9 @@ body {
     margin-top: 60px;
     padding-left: 30px;
 }
+
+.list__task p {
+    color: var(--white);
+    padding-left: 10px;
+}
+
