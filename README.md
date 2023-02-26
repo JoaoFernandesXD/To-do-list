@@ -140,7 +140,7 @@ Front-end que está sendo desenvolvido para se integrar com a API. O objetivo é
 | Container | 0 min  |  | done | 
 | Lista tarefas | 0 min  |  | done | 
 | Checkbox funcionando | 0 min  |  | done | 
-| efeito line-through ao clicar na tarefa | ?  |  | in progress | 
+| efeito line-through ao clicar na tarefa | 0 min  |  | done | 
 | Incluir button Editar | ?  |  | Em espera | 
 | Incluir button Exlcuir | ? |  | Em espera | 
 | Incluir button status (Concluido, em progresso, em espera) | ?  |  | Em espera | 
