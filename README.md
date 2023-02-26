@@ -41,7 +41,7 @@ Para Adicionar uma tarefa, o usuário deve enviar uma solicitação POST para o 
 
 | Parâmetro   | Tipo       | Descrição                                   |
 | :---------- | :--------- | :------------------------------------------ |
-| `titulo`      | `string` | **Obrigatório**. O titulo da tarefa|
+| `title`      | `string` | **Obrigatório**. O titulo da tarefa|
 
 
 #### Excluir tarefa
