@@ -141,9 +141,11 @@ Front-end que está sendo desenvolvido para se integrar com a API. O objetivo é
 | Lista tarefas | 0 min  |  | done | 
 | Checkbox funcionando | 0 min  |  | done | 
 | efeito line-through ao clicar na tarefa | 0 min  |  | done | 
-| Incluir button Editar | ?  |  | Em espera | 
-| Incluir button Exlcuir | ? |  | Em espera | 
+| Incluir button Editar | 0 min  |  | done | 
+| Incluir button Exlcuir | 0 min |  | done | 
 | Incluir button status (Concluido, em progresso, em espera) | ?  |  | Em espera | 
+| Criar um modal ao clicar em editar | ? |  | Em espera | 
+| Efeito ocultar tarefas já concluidas | ? |  | Em espera | 
 | Realizar integração com API  | ?  |  | Em espera | 
 
 
