@@ -16,6 +16,8 @@
     --gray: #8C8E93;
     --forblack: #23262C;
     --space_gray: #2E3239;
+    --red: #E51B3E;
+    --yellow: #F29C1F;
 }
 body {
     background-color: var(--forblack);
@@ -113,40 +115,47 @@ body {
 
 .all .list__task .button img {
     width: 20px;
-    margin: 0 auto;
+    margin: 0 auto 0 3px;
 }
 
 .all .list__task span {
     font-size: 14px;
-    color: var(--forblack);
+    margin: 0px 5px 0px 5px;
+    color: var(--white);
+    
 }
 
 .action {
     padding: 3px;
+    margin-left: 10px;
     border-radius: 5px;
 }
 
-.action:nth-child(1) {
-    background: linear-gradient(to right, yellow 50%, white 50%);
-    background-size: 200% 100%;
-    background-position: right bottom;
-    transition: all .5s ease-out;
+.action:nth-child(1){
+    border:1px solid var(--yellow);
+    background-color: transparent;
+    cursor: pointer;
+}
+.action:nth-child(2){
+    border:1px solid var(--red);
+    background-color: transparent;
+    cursor: pointer;
 }
 
-.action:nth-child(2) {
-    background: linear-gradient(to right, red 50%, white 50%);
-    background-size: 200% 100%;
-    background-position: right bottom;
-    transition: all .5s ease-out;
+.action:hover:nth-child(1) {
+    background-color: var(--yellow);
+    transition: all .2s ease-out;
 }
-
-.action:hover {
-    background-position: left bottom;
-  }
-
-button > img,
+.action:hover:nth-child(2) {
+    background-color: var(--red);
+    transition: all .2s ease-out;
+}
 button > span {
+    vertical-align: middle;
+}
+button > img {
   vertical-align: middle;
+  filter: invert(100%);
 }
 
 .all .list__task input[type=checkbox]{
