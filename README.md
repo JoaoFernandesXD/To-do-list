@@ -149,7 +149,7 @@ Front-end que está sendo desenvolvido para se integrar com a API. O objetivo é
 | Realizar integração com API  | ?  |  | Em espera | 
 
 
-![Front-end](https://user-images.githubusercontent.com/24917622/221362457-62bda23e-6c57-434d-9598-03ad06ace2ff.png)
+![Front-end](https://user-images.githubusercontent.com/24917622/221421004-9a96bfcf-25fd-4f39-9c10-e7035cba60d6.png)
 
 
 
