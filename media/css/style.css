@@ -125,13 +125,13 @@ body {
     
 }
 
-.action {
+.action, .edit{
     padding: 3px;
     margin-left: 10px;
     border-radius: 5px;
 }
 
-.action:nth-child(1){
+.edit:nth-child(1){
     border:1px solid var(--yellow);
     background-color: transparent;
     cursor: pointer;

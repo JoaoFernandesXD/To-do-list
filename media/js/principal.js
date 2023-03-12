@@ -49,11 +49,30 @@ submitTarefa()
 // Modal controller
 var modal = document.getElementById("modal")
 
-var btn = document.getElementById("edit")
+var btn = document.getElementsByClassName("edit")
 
 var span = document.getElementsByClassName("close")[0]
 
-btn.onclick = () => {
+console.log(btn)
+
+
+btn[0].onclick = () => {
+    modal.style.display = "block"
+}
+
+btn[1].onclick = () => {
+    modal.style.display = "block"
+}
+
+btn[2].onclick = () => {
+    modal.style.display = "block"
+}
+
+btn[3].onclick = () => {
+    modal.style.display = "block"
+}
+
+btn[4].onclick = () => {
     modal.style.display = "block"
 }
 
