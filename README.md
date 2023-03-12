@@ -144,7 +144,7 @@ Front-end que está sendo desenvolvido para se integrar com a API. O objetivo é
 | Incluir button Editar | 0 min  |  | done | 
 | Incluir button Exlcuir | 0 min |  | done | 
 | Incluir button status (Concluido, em progresso, em espera) | ?  |  | Em espera | 
-| Criar um modal ao clicar em editar | ? |  | Em espera | 
+| Criar um modal ao clicar em editar | ? |  | Em Andamento | 
 | Efeito ocultar tarefas já concluidas | ? |  | Em espera | 
 | Realizar integração com API  | ?  |  | Em espera | 
 
