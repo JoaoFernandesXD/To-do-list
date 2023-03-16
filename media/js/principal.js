@@ -45,3 +45,43 @@ const submitTarefa = () => {
 }
 
 submitTarefa()
+
+// Modal controller
+var modal = document.getElementById("modal")
+
+var btn = document.getElementsByClassName("edit")
+
+var span = document.getElementsByClassName("close")[0]
+
+console.log(btn)
+
+
+btn[0].onclick = () => {
+    modal.style.display = "block"
+}
+
+btn[1].onclick = () => {
+    modal.style.display = "block"
+}
+
+btn[2].onclick = () => {
+    modal.style.display = "block"
+}
+
+btn[3].onclick = () => {
+    modal.style.display = "block"
+}
+
+btn[4].onclick = () => {
+    modal.style.display = "block"
+}
+
+span.onclick = () => {
+    modal.style.display = "none"
+}
+
+window.onclick = (event) => {
+    if(event.target == modal) {
+        modal.style.display = "none"
+    }
+}

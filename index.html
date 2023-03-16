@@ -35,7 +35,7 @@
               <input type="checkbox" class="input" />
               <p>Criar um to do list com node js e html e css</p>
               <div class="button">
-                <button class="action">
+                <button class="edit" id="edit">
                   <img src="./media/img/note.png" />
                   <span>Editar</span>
                 </button>
@@ -49,7 +49,7 @@
               <input type="checkbox" class="input" />
               <p>Finalizar Front-end do Napp Academy</p>
               <div class="button">
-                <button class="action">
+                <button class="edit" id="edit">
                   <img src="./media/img/note.png" />
                   <span>Editar</span>
                 </button>
@@ -63,7 +63,7 @@
               <input type="checkbox" class="input" />
               <p>Começar a estudar Docker</p>
               <div class="button">
-                <button class="action">
+                <button class="edit" id="edit">
                   <img src="./media/img/note.png" />
                   <span>Editar</span>
                 </button>
@@ -76,8 +76,8 @@
             <div class="list__task">
               <input type="checkbox" class="input" />
               <p>Finalizar o Banck-End</p>
-              <div class="button">
-                <button class="action">
+              <div class="button" id="edit">
+                <button class="edit">
                   <img src="./media/img/note.png" />
                   <span>Editar</span>
                 </button>
@@ -91,7 +91,7 @@
               <input type="checkbox" class="input" />
               <p>Começar a estudar a estrutura de MVC</p>
               <div class="button">
-                <button class="action">
+                <button class="edit" id="edit">
                   <img src="./media/img/note.png" />
                   <span>Editar</span>
                 </button>
@@ -103,12 +103,23 @@
             </div>
           </div>
           <form id="novaTarefaForm" class="form__container">
-            <input class="form__input" type="text" placeholder="Escreva uma nova tarefa!" />
+            <input
+              class="form__input"
+              type="text"
+              placeholder="Escreva uma nova tarefa!"
+            />
             <button type="submit" class="form__button">Adicionar</button>
           </form>
         </div>
       </section>
     </main>
+    <!-- Modal -->
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Título da tarefa</p>
+      </div>
+    </div>
     <script src="./media/js/principal.js"></script>
   </body>
 </html>
